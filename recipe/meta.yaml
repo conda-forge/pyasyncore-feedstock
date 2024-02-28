@@ -1,5 +1,5 @@
 {% set name = "pyasyncore" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyasyncore-{{ version }}.tar.gz
-  sha256: 562e0686c936171a65ae5eaf0341859a05650010b9aae5d7d01382b5bcdab8d0
+  sha256: 2c7a8b9b750ba6260f1e5a061456d61320a80579c6a43d42183417da89c7d5d6
 
 build:
   noarch: python
